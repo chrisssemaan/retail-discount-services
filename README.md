@@ -32,6 +32,8 @@ mvn clean verify
 ## API documentation
 http://localhost:9091/swagger-ui.html
 
+## Postman Collection
+Included under postman folder
 
 ## Built With
 
