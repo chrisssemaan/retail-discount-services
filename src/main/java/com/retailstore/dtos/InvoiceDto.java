@@ -27,5 +27,5 @@ public class InvoiceDto {
 
     private LocalDateTime dateCreated;
 
-    List<ItemDto> items;
+    private List<ItemDto> items;
 }
