@@ -47,7 +47,7 @@ public class CustomerRepositoryTest {
                 .type(CustomerType.AFFILIATE)
                 .build();
 
-        customer = customerRepository.save(customer);
+        entityManager.persist(customer);
 
         assertEquals(1, customerRepository.findAll().size());
         Optional<Customer> customerOptional = customerRepository.findById(customer.getId());
